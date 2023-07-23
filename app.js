@@ -54,6 +54,7 @@ for (const waypoint of parsedData) {
   waypointsArray.push(waypointArray)
 }
 console.log(waypointsArray)//此為前端希望的回傳格式
+console.log('end')//此為前端希望的回傳格式
 
 
 app.listen(PORT, () => {
